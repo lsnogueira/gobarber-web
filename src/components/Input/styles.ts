@@ -66,4 +66,13 @@ export const Error = styled(Tooltip)`
   svg {
     margin: 0;
   }
+
+  span {
+    background: #d53030;
+    color: #f4ede8;
+
+    &::before {
+      border-color: #d53030 transparent;
+    }
+  }
 `;
