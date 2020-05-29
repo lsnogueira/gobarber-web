@@ -38,7 +38,7 @@ const SignIn: React.FC = () => {
 
         const { email, password } = data;
 
-        signIn({
+        await signIn({
           email,
           password,
         });
